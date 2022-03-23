@@ -67,11 +67,8 @@ public class DepartmentDaoJDBC implements DepartmentDao {
 			st.executeUpdate();
 			
 		}
-		catch(SQLException e) {
-			
+		catch(SQLException e) {	
 		}
-		
-		
 	}
 
 	@Override
